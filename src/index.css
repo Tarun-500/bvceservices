@@ -38,7 +38,6 @@ body {
   overflow-x: hidden;
 }
 
-
 img {
   pointer-events: none;
   user-select: none;
@@ -301,13 +300,12 @@ h2 {
     background-image: url("./assets/images/about-sent-bg.png");
   } */
 
-
   &::after {
     position: absolute;
     content: "";
     top: 50%;
     right: 0;
-    transform: translate(0, -5%);
+    transform: translate(0, 25%);
     width: 335px;
     height: 605px;
     background-repeat: no-repeat;
@@ -318,7 +316,6 @@ h2 {
   .content_box {
     position: relative;
     z-index: var(--z-index-99);
-
 
     h2 {
       font-size: var(--fs-25);
@@ -541,7 +538,6 @@ h2 {
     font-size: 2rem;
     color: var(--green-text);
   }
-
 }
 
 .contact {
@@ -645,7 +641,6 @@ h2 {
   }
 
   .social_icon {
-
     display: flex;
     align-items: center;
     gap: 15px;
@@ -653,16 +648,14 @@ h2 {
     font-size: var(--fs-16);
 
     svg {
-      opacity: .6;
-      transition: all .3s linear;
+      opacity: 0.6;
+      transition: all 0.3s linear;
 
       &:hover {
         opacity: 1;
         transform: rotate(-8deg) scale(1.2);
       }
     }
-
-
   }
 }
 
@@ -880,20 +873,17 @@ h2 {
   }
 }
 
-
-
-@media(max-width:1480px) {
+@media (max-width: 1480px) {
   .about {
     padding: 100px 20px 60px 20px;
   }
 }
 
-@media(min-width:991px) and (max-width:1480px) {
-
-  .header{
-    .beach { 
+@media (min-width: 991px) and (max-width: 1600px) {
+  .header {
+    .beach {
       transform: translateY(-25%);
-  }
+    }
   }
   .about {
     top: 170px;
@@ -901,11 +891,42 @@ h2 {
   }
 }
 
-@media(max-width:991px) {
+@media (max-width: 991px) {
   .btn {
     font-size: var(--fs-18);
   }
 
+  .header {
+    .content {
+      padding: 12px 10px;
+      border: 15px solid #ffffff5c;
+
+      h2 {
+        font-size: var(--fs-32);
+      }
+      p {
+        font-size: var(--fs-16);
+        margin-bottom: 10px;
+      }
+    }
+    & .logo_two {
+      img {
+        max-width: 220px;
+      }
+    }
+
+    & .logo {
+      img {
+        max-width: 100px;
+      }
+    }
+    .line {
+      height: 2px;
+      margin: 10px auto 8px auto;
+      border-radius: 100%;
+      background-color: var(--white);
+    }
+  }
 
   .slider_section {
     padding: 60px 20px;
@@ -928,7 +949,6 @@ h2 {
   }
 
   .about {
-
     &::after {
       top: 100%;
       transform: translate(0, -75%);
@@ -936,8 +956,6 @@ h2 {
       height: 302px;
       background-size: 100%, 100%;
     }
-
-
 
     .content_box {
       max-width: 100%;
@@ -947,10 +965,19 @@ h2 {
       }
     }
   }
+
+  .contact {
+    .hanger {
+      top: 0;
+
+      img {
+        max-width: 140px;
+      }
+    }
+  }
 }
 
-
-@media(max-width:767px) {
+@media (max-width: 767px) {
   .btn {
     height: 42px;
     font-size: var(--fs-16);
@@ -1065,7 +1092,6 @@ h2 {
     }
   }
 
-
   .advertise {
     height: 450px;
 
@@ -1093,8 +1119,6 @@ h2 {
         max-width: 90px;
       }
     }
-
-
   }
 
   @keyframes compassSwing {
@@ -1122,10 +1146,9 @@ h2 {
       transform: translate(0, -50%) rotate(-25deg);
     }
   }
-
 }
 
-@media(max-width:576px) {
+@media (max-width: 576px) {
   .btn {
     padding: 8px 30px;
   }
@@ -1140,11 +1163,9 @@ h2 {
     p {
       font-size: var(--fs-14);
     }
-
   }
 
   .header {
-
     .LefsImg2,
     .LefsImg1 {
       img {
@@ -1225,5 +1246,4 @@ h2 {
       grid-template-columns: repeat(2, 1fr);
     }
   }
-
 }

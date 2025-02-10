@@ -22,7 +22,7 @@ export default function About() {
                         </p>
                     </Col>
 
-                    <Col md={5}>
+                    <Col md={5} className="my-auto">
                         <div className="video_box" onClick={() => setShow(true)}>
                             <img src={VideoImg} alt="video thumbnail" />
                             <div className="play_icon">

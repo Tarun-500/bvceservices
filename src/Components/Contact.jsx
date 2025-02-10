@@ -36,7 +36,7 @@ export default function Contact() {
                                 </Col>
                             </Row>
                         </Col>
-                        <Col className='w-100 bg-white pt-1 my-3 d-sm-none'> </Col>
+                        <Col className='w-100 bg-white pt-1 my-3 d-md-none'> </Col>
                         <Col md={6} className='ps-md-0'>
                             <Row>
                                 <Col>

@@ -1,3 +1,8 @@
+<p>
+ I have built this site using React.js with Vite. It is fully responsive and SEO-friendly, with an SEO score of over 90 and a performance score of 98. 
+</p>
+
+
 <h1> Website Layout Design </h1>
 ![home5](https://github.com/user-attachments/assets/22f83a0c-90f6-4385-949a-11d10fa59f39)
 

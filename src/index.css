@@ -888,6 +888,19 @@ h2 {
   }
 }
 
+@media(min-width:991px) and (max-width:1480px) {
+
+  .header{
+    .beach { 
+      transform: translateY(-25%);
+  }
+  }
+  .about {
+    top: 170px;
+    padding: 60px 20px 60px 20px;
+  }
+}
+
 @media(max-width:991px) {
   .btn {
     font-size: var(--fs-18);

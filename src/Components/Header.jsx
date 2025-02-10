@@ -59,7 +59,7 @@ export default function Header() {
         <img ref={bird2Ref} src={Bird2} className="bird bird2" alt="Flying Bird" />
       </div>
 
-      <div className='text-center'>
+      <div className='text-center position-relative z-index-99'>
         <div className='logo'>
           <img src={Logo} alt="Logo" loading='lazy' />
         </div>

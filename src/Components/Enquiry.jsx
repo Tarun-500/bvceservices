@@ -9,7 +9,7 @@ export default function Enquiry() {
       </div>
       <div className="content_box">
         <div className="content">
-          <h1>JUST WANT TO ATTEND? </h1>
+          <h1> <em>JUST WANT TO ATTEND? </em> </h1>
           <Button label="Enquiry Now" className={"green"} />
         </div>
       </div>

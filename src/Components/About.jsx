@@ -12,13 +12,13 @@ export default function About() {
 
                 <Row>
                     <Col md={7}>
-                        <h2> About Intersec</h2>
-                        <h3> How it All Started</h3>
+                        <h2> <em>About Intersec</em> </h2>
+                        <h1> How it All Started</h1>
                         <p>
-                            {" It all started in the year 2019 when IAMAI launched the first edition of Intersec. After a superb reception of the event, Intersec became an annual property of IAMAI. Fondly called as the art of ‘UNCONFERENCING’, Intersec is a fun-filled meet and greet which isn't just another conference or off-site which is full of speakers and listeners. Here, you get ample time and opportunity to meet and interact with new people and explore a lot of business synergies. So, you see, it’s more focused on conversations than on addresses, speeches or lectures."}
+                            roperty of IAMAI. Fondly called as the art of  <strong>‘UNCONFERENCING’,</strong> Intersec is a fun-filled meet and greet which isn't just another conference or off-site which is full of speakers and listeners. Here, you get ample time and opportunity to meet and interact with new people and explore a lot of business synergies. So, you see, it’s more focused on conversations than on addresses, speeches or lectures."
                         </p>
                         <p>
-                            {" Attended by more than 60 unique brands in the last two editions, Intersec is a 2 night's and 3 day's residential assembly of Digital and Marketing Heads of brands catering to industries like D2C, FMCG, Retail, E-Commerce, Gaming, BFSI, FinTech, Travel & Hospitality and many more! A space to share 1st hand insights and an experience to handhold and nurture each other to build the strongest, ever-growing professional bonds is what awaits at IAMAI's Intersec!"}
+                              Attended by more than 60 unique brands in the last two editions, Intersec is a 2 night's and 3 day's residential assembly of Digital and Marketing Heads of brands catering to industries like D2C, FMCG, Retail, E-Commerce, Gaming, BFSI, FinTech, Travel & Hospitality and many more! A space to share 1st hand insights and an experience to handhold and nurture each other to build the strongest, ever-growing professional bonds is what awaits at IAMAI's Intersec!  
                         </p>
                     </Col>
 

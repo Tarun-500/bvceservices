@@ -53,15 +53,13 @@ export default function Partners() {
                                 <div className="img-box">
                                     <img src={person.img} alt={person.name} />
                                 </div>
-                                <div className="info">
-                                    <button className="slider-btn">{person.name}</button>
-                                </div>
+                                <button className="slider-btn">{person.name}</button>
                             </div>
                         ))}
                     </Slider>
                 </div>
 
-                <p>Over the years, our partners have reaped the benefits of exhibiting thought leadership,
+                <p className="mx-600 mx-auto para-1">Over the years, our partners have reaped the benefits of exhibiting thought leadership,
                     effective lead generation, best in class branding & exceptional ROI</p>
 
                 <Button label={"Become a Partner"} className={"black"} />
